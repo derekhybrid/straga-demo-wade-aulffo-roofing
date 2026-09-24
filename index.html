@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wade Aulffo Roofing | South Jersey Roofing Contractor</title>
+<meta name="description" content="Wade Aulffo Roofing — licensed South Jersey roofing contractor, Landisville, NJ.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0c1824;
+    --navy2:#132639;
+    --steel:#3c5a76;
+    --orange:#e2632a;
+    --orange2:#ff8a4c;
+    --ink:#0f1e2e;
+    --paper:#f6f4ef;
+    --line:#e5e0d3;
+    --muted:#5b6672;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Inter',Arial,sans-serif;}
+  h1,h2,h3,h4,.brand,.step .num,.kicker{font-family:'Oswald',Arial,sans-serif;text-transform:uppercase;}
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
+  img,svg{display:block;}
+
+  .demo-note{background:var(--orange);color:#fff;text-align:center;padding:10px 16px;font-size:0.85rem;font-weight:600;}
+
+  header{background:var(--navy);color:#fff;padding:16px 0;position:sticky;top:0;z-index:20;box-shadow:0 1px 0 rgba(255,255,255,0.06);}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:700;font-size:1.2rem;letter-spacing:0.03em;}
+  .brand .mark{width:38px;height:38px;flex:none;}
+  nav a{margin-left:26px;color:#cfd9e3;font-size:0.85rem;letter-spacing:0.04em;text-transform:uppercase;font-family:'Oswald',Arial,sans-serif;}
+  nav a:hover{color:#fff;}
+  .header-cta{
+    background:var(--orange);color:#fff;padding:11px 20px;border-radius:3px;font-weight:600;font-size:0.85rem;
+    font-family:'Oswald',Arial,sans-serif;letter-spacing:0.03em;text-transform:uppercase;
+    box-shadow:0 4px 14px rgba(226,99,42,0.35);transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .header-cta:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(226,99,42,0.45);}
+
+  .hero{
+    position:relative;overflow:hidden;
+    background:
+      radial-gradient(ellipse 900px 500px at 85% -10%, rgba(226,99,42,0.22), transparent 60%),
+      linear-gradient(180deg, #0a1420, #0f1f30 60%, #0c1824);
+    color:#fff;padding:118px 0 0;
+  }
+  .hero-inner{position:relative;z-index:2;padding-bottom:70px;}
+  .badge{
+    display:inline-flex;align-items:center;gap:8px;
+    background:rgba(226,99,42,0.14);color:var(--orange2);
+    border:1px solid rgba(226,99,42,0.4);
+    padding:7px 16px;border-radius:100px;font-size:0.74rem;letter-spacing:0.12em;text-transform:uppercase;
+    margin-bottom:26px;font-family:'Oswald',Arial,sans-serif;font-weight:600;
+  }
+  h1{font-size:clamp(2.6rem,6vw,4.2rem);line-height:1.03;margin:0 0 24px;max-width:15ch;font-weight:700;letter-spacing:0.005em;}
+  h1 .accent{color:var(--orange);display:block;
+    background:linear-gradient(90deg,var(--orange),var(--orange2));
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+  }
+  .lede{color:#c3ccd6;font-size:1.14rem;max-width:46ch;line-height:1.65;margin:0 0 36px;font-family:'Inter',Arial,sans-serif;}
+  .cta-row{display:flex;gap:16px;flex-wrap:wrap;}
+  .btn{padding:16px 28px;border-radius:3px;font-weight:600;font-size:0.9rem;display:inline-flex;gap:10px;align-items:center;
+       font-family:'Oswald',Arial,sans-serif;letter-spacing:0.03em;text-transform:uppercase;transition:transform .15s ease, box-shadow .15s ease;}
+  .btn-primary{background:var(--orange);color:#fff;box-shadow:0 8px 24px rgba(226,99,42,0.35);}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(226,99,42,0.45);}
+  .btn-outline{border:1px solid rgba(255,255,255,0.3);color:#fff;}
+  .btn-outline:hover{border-color:#fff;background:rgba(255,255,255,0.06);}
+
+  .roofline{position:absolute;left:0;right:0;bottom:-1px;height:120px;z-index:1;opacity:0.9;}
+
+  .trust-strip{background:var(--navy2);color:#dfe6ec;padding:22px 0;position:relative;z-index:2;}
+  .trust-strip .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px;font-size:0.86rem;}
+  .trust-strip .item{display:flex;align-items:center;gap:10px;}
+  .trust-strip svg{width:18px;height:18px;flex:none;color:var(--orange2);}
+  .trust-strip b{color:#fff;}
+
+  section{padding:84px 0;}
+  .section-head{max-width:56ch;margin-bottom:48px;}
+  .kicker{color:var(--orange);font-weight:600;font-size:0.78rem;letter-spacing:0.14em;margin:0 0 12px;}
+  h2{font-size:2.1rem;margin:0 0 14px;font-weight:600;letter-spacing:0.005em;}
+  .section-head p{color:var(--muted);line-height:1.6;font-size:1.02rem;}
+
+  .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;}
+  .svc{background:#fff;border:1px solid var(--line);border-radius:10px;padding:30px 26px;transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;}
+  .svc:hover{transform:translateY(-4px);box-shadow:0 16px 32px rgba(15,30,46,0.08);border-color:transparent;}
+  .svc .icon{
+    width:48px;height:48px;border-radius:9px;background:linear-gradient(135deg,#fdece0,#fbe0cf);
+    display:flex;align-items:center;justify-content:center;margin-bottom:18px;
+  }
+  .svc .icon svg{width:24px;height:24px;color:var(--orange);}
+  .svc h3{margin:0 0 8px;font-size:1.05rem;font-weight:600;letter-spacing:0.01em;}
+  .svc p{margin:0;color:var(--muted);font-size:0.92rem;line-height:1.55;font-family:'Inter',Arial,sans-serif;text-transform:none;}
+
+  .process{background:var(--navy);color:#fff;position:relative;overflow:hidden;}
+  .process::before{
+    content:"";position:absolute;inset:0;
+    background:repeating-linear-gradient(115deg, rgba(255,255,255,0.02) 0 40px, transparent 40px 80px);
+  }
+  .process .wrap{position:relative;}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;}
+  .step{padding:24px 0;border-top:2px solid var(--orange);}
+  .step .num{color:var(--orange);font-weight:700;font-size:1.4rem;}
+  .step h4{margin:12px 0 8px;font-size:1rem;font-weight:600;letter-spacing:0.01em;}
+  .step p{margin:0;color:#aebccb;font-size:0.87rem;line-height:1.5;font-family:'Inter',Arial,sans-serif;text-transform:none;}
+
+  .cta-band{
+    position:relative;overflow:hidden;
+    background:linear-gradient(120deg,var(--orange),#c94f1c);color:#fff;text-align:center;padding:64px 24px;border-radius:14px;
+    margin:0 24px;
+  }
+  .cta-band h2{margin:0 0 14px;}
+  .cta-band p{margin:0 0 28px;opacity:0.95;font-family:'Inter',Arial,sans-serif;text-transform:none;}
+  .cta-band .btn-primary{background:#fff;color:var(--orange);box-shadow:0 8px 24px rgba(0,0,0,0.18);}
+
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;}
+  .info-block h3{font-size:0.78rem;letter-spacing:0.12em;color:var(--orange);margin:0 0 18px;font-weight:600;}
+  .info-block ul{list-style:none;margin:0;padding:0;}
+  .info-block li{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid var(--line);font-size:0.95rem;color:var(--muted);font-family:'Inter',Arial,sans-serif;}
+  .info-block li span:last-child{color:var(--ink);font-weight:600;}
+
+  footer{background:var(--navy);color:#8fa1b3;padding:34px 0;font-size:0.85rem;}
+  footer .wrap{display:flex;justify-content:space-between;font-size:0.85rem;flex-wrap:wrap;gap:12px;}
+
+  @media (max-width:760px){
+    nav{display:none;}
+    .steps{grid-template-columns:1fr 1fr;}
+    .contact-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<div class="demo-note">Free concept site built for Wade Aulffo Roofing by Straga Hybrid Marketing — not yet live.</div>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="48" height="48" rx="9" fill="#e2632a"/>
+        <path d="M9 27L24 14L39 27" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14 26V35H34V26" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M22 35V29H26V35" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Wade Aulffo Roofing
+    </div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="tel:+18566970699">(856) 697-0699</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <span class="badge">Licensed &amp; Insured &middot; South Jersey</span>
+    <h1>Roofs built to take<span class="accent">whatever the Jersey Shore throws at them.</span></h1>
+    <p class="lede">Wade Aulffo Roofing has been putting on and repairing roofs across Atlantic County for years — straight talk, real estimates, and a crew that shows up when they say they will.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="tel:+18566970699">Call (856) 697-0699</a>
+      <a class="btn btn-outline" href="#services">View services</a>
+    </div>
+  </div>
+  <svg class="roofline" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,120 L0,80 L150,30 L300,80 L450,20 L600,80 L750,35 L900,80 L1050,25 L1200,80 L1200,120 Z" fill="#f6f4ef"/>
+  </svg>
+</section>
+
+<div class="trust-strip">
+  <div class="wrap">
+    <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/></svg><b>Landisville, NJ</b>&nbsp;&middot; Serving all of Atlantic County</div>
+    <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>Free on-site estimates</div>
+    <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.4L12 15.7 7.1 18l.9-5.4-4-3.9L9.5 8z"/></svg>Storm &amp; insurance repair specialists</div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">What we handle</p>
+      <h2>Full-service roofing, start to finish.</h2>
+      <p>From a single leak repair to a full tear-off and replacement, one crew handles the whole job — no subcontracting it out to strangers.</p>
+    </div>
+    <div class="services-grid">
+      <div class="svc"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21l7-7M14 3l7 7-4 4-7-7 4-4zM7 14l3 3-3 3-3-3 3-3z"/></svg></div><h3>Roof Replacement</h3><p>Full tear-off and re-roof with your choice of shingle, done in days not weeks.</p></div>
+      <div class="svc"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></div><h3>Repairs &amp; Leaks</h3><p>Fast diagnosis and fix for leaks, missing shingles, and storm damage.</p></div>
+      <div class="svc"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M7 4h10l2 4v11a1 1 0 01-1 1H6a1 1 0 01-1-1V8l2-4z"/></svg></div><h3>Insurance Claims</h3><p>We document the damage and work directly with your adjuster.</p></div>
+      <div class="svc"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-6 9 6v11a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9z"/></svg></div><h3>Siding &amp; Gutters</h3><p>Protect the rest of the exterior while we're already on site.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="section-head" style="max-width:60ch;">
+      <p class="kicker" style="color:#f3a27a;">How it works</p>
+      <h2 style="color:#fff;">Four steps, no runaround.</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="num">01</div><h4>Call or text</h4><p>Tell us what's going on — a leak, missing shingles, or you just want it replaced.</p></div>
+      <div class="step"><div class="num">02</div><h4>Free inspection</h4><p>We get on the roof, take photos, and give you a real number — same day, in writing.</p></div>
+      <div class="step"><div class="num">03</div><h4>Scheduled work</h4><p>Materials ordered, crew scheduled, property protected before a single shingle comes off.</p></div>
+      <div class="step"><div class="num">04</div><h4>Walkthrough &amp; warranty</h4><p>We walk the finished roof with you and back the work in writing.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="cta-band">
+    <h2>Got a leak? Don't wait on it.</h2>
+    <p>Free estimates across Atlantic County — most calls get a same-week look.</p>
+    <a class="btn btn-primary" href="tel:+18566970699">Call (856) 697-0699 →</a>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap contact-grid">
+    <div class="info-block">
+      <h3>Service Area</h3>
+      <ul>
+        <li><span>Based in</span><span>Landisville, NJ</span></li>
+        <li><span>Serving</span><span>Atlantic County, South Jersey</span></li>
+        <li><span>Estimates</span><span>Free, on-site</span></li>
+      </ul>
+    </div>
+    <div class="info-block">
+      <h3>Contact</h3>
+      <ul>
+        <li><span>Phone</span><span>(856) 697-0699</span></li>
+        <li><span>Hours</span><span>Mon – Sat, 7am – 6pm</span></li>
+        <li><span>Emergency repairs</span><span>Call anytime</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>&copy; Wade Aulffo Roofing, LLC &middot; South Jersey</div>
+    <div>Concept site by Straga Hybrid Marketing</div>
+  </div>
+</footer>
+
+</body>
+</html>
